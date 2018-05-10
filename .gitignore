@@ -1,0 +1,12 @@
+*.egg-info
+*.egg
+*.EGG
+*.EGG-INFO
+bin
+build
+develop-eggs
+eggs
+dist
+*.pyc
+*.pyo
+*.tmp*

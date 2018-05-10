@@ -1,0 +1,12 @@
+name: bayesian
+channels:
+- defaults
+dependencies:
+- ipython
+- jupyter
+- pandas
+- pip
+- seaborn
+- pip:
+  - ipywidgets
+    #- git+https://github.com/SauceCat/PDPbox.git
