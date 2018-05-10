@@ -15,8 +15,7 @@ from setuptools import setup, find_packages
 ## Installation requirements
 ##########################################################################
 install_requires = [
-    "pymc3",
-    "numpy"
+    'pymc3',
 ]
 
 ##########################################################################
