@@ -1,12 +1,14 @@
 name: bayesian
 channels:
 - defaults
-dependencies:
+dependencies: # equivalent to conda install 
 - ipython
 - jupyter
+- mkl-service
 - pandas
 - pip
 - seaborn
-- pip:
-  - ipywidgets
-    #- git+https://github.com/SauceCat/PDPbox.git
+- pip: # equivalent to pip install. also pulls from setup.py install_requires
+  - "--editable=."
+  #- --process-dependency-links`
+  #- git+https://github.com/SauceCat/PDPbox.git

@@ -16,6 +16,13 @@ from setuptools import setup, find_packages
 ##########################################################################
 install_requires = [
     'pymc3',
+    'linearmodels',
+    'bambi',
+    'tensorflow',
+    'theano',
+    'keras',
+    'statsmodels',
+    'sympy',
 ]
 
 ##########################################################################
@@ -25,7 +32,7 @@ install_requires = [
 setup(
     name = "bayesian",
     packages = find_packages(),
-    version = 0.1.0,
+    version = 0.1,
     description = "Lib to demonstrate bayesian methods",
     author = "Arpan P. Shah",
     license = "Apache License 2.0",
